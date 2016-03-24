@@ -13,6 +13,56 @@
  *= require_tree .
  *= require_self
  */
- h1{
- 	background-color: blue;
- }
+
+
+.container {
+  	width: 710px;
+  	margin: auto;
+}
+
+body {
+  	background: #cff;
+}
+
+header {
+  	padding-top: 20px;
+}
+
+header img {
+  	padding: 1em;
+
+}
+
+section {
+  	margin-top: 1em;
+  	font-size: 120%;
+  	padding: 20px;
+  	background: #fff;
+}
+
+section h1 {
+  	font-size: 200%;
+}
+
+/* Liens */
+
+a {
+  	color: #09c;
+  	text-decoration: none;
+}
+.signupbutton{
+	color: white;
+}
+
+a:hover {
+  	text-decoration: underline;
+}
+
+
+.RoR {
+	width: 75px;
+	height: 75px;
+}
+.round{
+	border-radius: 10px;
+}
