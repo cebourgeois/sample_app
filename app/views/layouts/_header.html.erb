@@ -1,0 +1,11 @@
+<header>
+  <!-- <img src="../../asset/image/logo.png" alt="Logo Ruby on Rails" id="RoR"> -->
+  <%= image_tag("logo.png", :alt => "Logo Ruby on Rails", :class=>"RoR") %>
+  <nav class="round">
+    <ul>
+      <li><%= link_to "Accueil", root_path %></li>
+      <li><%= link_to "Aide", help_path %></li>
+      <li><%= link_to "Inscription", signup_path %></li>
+    </ul>
+  </nav>
+</header>
